@@ -1,0 +1,863 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-16T02:08:42+00:00",
+  "title": "Design System: Bigprint",
+  "extensions": {
+    "colorMeta": {
+      "proof-magenta-dark": {
+        "role": "primary",
+        "displayName": "Proof Magenta Dark",
+        "canonical": "#e06a9d",
+        "tonalRamp": [
+          "#17040c",
+          "#3a1826",
+          "#682845",
+          "#9a3965",
+          "#c05c87",
+          "#d68ba8",
+          "#e9bacb",
+          "#ffe4f0"
+        ]
+      },
+      "proof-magenta-fill-dark": {
+        "role": "primary",
+        "displayName": "Proof Magenta Fill Dark",
+        "canonical": "#bc4777",
+        "tonalRamp": [
+          "#18040b",
+          "#3b1825",
+          "#692842",
+          "#9b3861",
+          "#c15b82",
+          "#d78ba5",
+          "#eabac9",
+          "#ffe4ee"
+        ]
+      },
+      "proof-magenta-deep-dark": {
+        "role": "primary",
+        "displayName": "Proof Magenta Deep Dark",
+        "canonical": "#a53c68",
+        "tonalRamp": [
+          "#17050b",
+          "#391925",
+          "#662b42",
+          "#973d62",
+          "#bd5f83",
+          "#d38da5",
+          "#e7bbc9",
+          "#ffe5ee"
+        ]
+      },
+      "proof-magenta-soft-dark": {
+        "role": "primary",
+        "displayName": "Proof Magenta Soft Dark",
+        "canonical": "rgb(224 106 157 / 0.14)",
+        "tonalRamp": [
+          "#17040c",
+          "#3a1826",
+          "#682845",
+          "#9a3965",
+          "#c05c87",
+          "#d68ba8",
+          "#e9bacb",
+          "#ffe4f0"
+        ]
+      },
+      "proof-magenta-light": {
+        "role": "primary",
+        "displayName": "Proof Magenta Light",
+        "canonical": "#b8336a",
+        "tonalRamp": [
+          "#19030a",
+          "#3d1624",
+          "#6d2340",
+          "#a1315e",
+          "#c8557f",
+          "#dc88a2",
+          "#edb8c7",
+          "#ffe3ed"
+        ]
+      },
+      "proof-magenta-deep-light": {
+        "role": "primary",
+        "displayName": "Proof Magenta Deep Light",
+        "canonical": "#9f2a5b",
+        "tonalRamp": [
+          "#18040b",
+          "#3b1824",
+          "#692840",
+          "#9c385f",
+          "#c25b80",
+          "#d88ba3",
+          "#eabac8",
+          "#ffe4ed"
+        ]
+      },
+      "proof-magenta-soft-light": {
+        "role": "primary",
+        "displayName": "Proof Magenta Soft Light",
+        "canonical": "rgb(184 51 106 / 0.1)",
+        "tonalRamp": [
+          "#19030a",
+          "#3d1624",
+          "#6d2340",
+          "#a1315e",
+          "#c8557f",
+          "#dc88a2",
+          "#edb8c7",
+          "#ffe3ed"
+        ]
+      },
+      "panel-dark": {
+        "role": "neutral",
+        "displayName": "Instrument Panel Dark",
+        "canonical": "#0a0c0c",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242525",
+          "#414242",
+          "#5f6262",
+          "#808383",
+          "#a4a5a5",
+          "#c8c9c9",
+          "#eeeeee"
+        ]
+      },
+      "panel-2-dark": {
+        "role": "neutral",
+        "displayName": "Raised Panel Dark",
+        "canonical": "#131716",
+        "tonalRamp": [
+          "#0a0b0b",
+          "#242525",
+          "#404342",
+          "#5e6261",
+          "#7f8382",
+          "#a2a6a5",
+          "#c7cac9",
+          "#edefee"
+        ]
+      },
+      "mat-dark": {
+        "role": "neutral",
+        "displayName": "Cutting Mat Dark",
+        "canonical": "#0d1e1b",
+        "tonalRamp": [
+          "#090c0b",
+          "#212625",
+          "#3a4542",
+          "#556562",
+          "#758783",
+          "#9ca8a5",
+          "#c3cbc9",
+          "#eaf0ef"
+        ]
+      },
+      "ink-dark": {
+        "role": "neutral",
+        "displayName": "Ink Dark",
+        "canonical": "#e8efeb",
+        "tonalRamp": [
+          "#0a0b0b",
+          "#242624",
+          "#3f4341",
+          "#5d6360",
+          "#7e8481",
+          "#a2a6a4",
+          "#c7cac8",
+          "#edefee"
+        ]
+      },
+      "mute-dark": {
+        "role": "neutral",
+        "displayName": "Mute Dark",
+        "canonical": "#8c9c95",
+        "tonalRamp": [
+          "#090c0b",
+          "#222624",
+          "#3c4441",
+          "#58655f",
+          "#788680",
+          "#9ea8a3",
+          "#c5cbc8",
+          "#ebf0ee"
+        ]
+      },
+      "line-dark": {
+        "role": "neutral",
+        "displayName": "Hairline Dark",
+        "canonical": "rgb(255 255 255 / 0.09)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "line-strong-dark": {
+        "role": "neutral",
+        "displayName": "Strong Hairline Dark",
+        "canonical": "rgb(255 255 255 / 0.18)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "grid-dark": {
+        "role": "neutral",
+        "displayName": "Mat Grid 10 mm Dark",
+        "canonical": "rgb(110 210 180 / 0.075)",
+        "tonalRamp": [
+          "#010f0a",
+          "#0e2b23",
+          "#124d3e",
+          "#10725b",
+          "#3e947c",
+          "#7bb3a0",
+          "#b1d2c6",
+          "#def5ec"
+        ]
+      },
+      "grid-major-dark": {
+        "role": "neutral",
+        "displayName": "Mat Grid 50 mm Dark",
+        "canonical": "rgb(110 210 180 / 0.17)",
+        "tonalRamp": [
+          "#010f0a",
+          "#0e2b23",
+          "#124d3e",
+          "#10725b",
+          "#3e947c",
+          "#7bb3a0",
+          "#b1d2c6",
+          "#def5ec"
+        ]
+      },
+      "ruler-bg-dark": {
+        "role": "neutral",
+        "displayName": "Ruler Bg Dark",
+        "canonical": "#0a1715",
+        "tonalRamp": [
+          "#090c0b",
+          "#222625",
+          "#3b4443",
+          "#576462",
+          "#788683",
+          "#9da8a6",
+          "#c4cbc9",
+          "#ebefef"
+        ]
+      },
+      "ruler-line-dark": {
+        "role": "neutral",
+        "displayName": "Ruler Line Dark",
+        "canonical": "rgb(110 210 180 / 0.3)",
+        "tonalRamp": [
+          "#010f0a",
+          "#0e2b23",
+          "#124d3e",
+          "#10725b",
+          "#3e947c",
+          "#7bb3a0",
+          "#b1d2c6",
+          "#def5ec"
+        ]
+      },
+      "ruler-ink-dark": {
+        "role": "neutral",
+        "displayName": "Ruler Ink Dark",
+        "canonical": "#8fb9ab",
+        "tonalRamp": [
+          "#060d0b",
+          "#1c2824",
+          "#314740",
+          "#48695f",
+          "#688b80",
+          "#93aca3",
+          "#becdc8",
+          "#e7f1ed"
+        ]
+      },
+      "sel-bg-dark": {
+        "role": "neutral",
+        "displayName": "Selection Neutral Bg Dark",
+        "canonical": "#202826",
+        "tonalRamp": [
+          "#0a0c0b",
+          "#232625",
+          "#3e4342",
+          "#5b6361",
+          "#7c8482",
+          "#a0a7a5",
+          "#c6cac9",
+          "#ecefee"
+        ]
+      },
+      "sel-line-dark": {
+        "role": "neutral",
+        "displayName": "Selection Neutral Line Dark",
+        "canonical": "#5d6a65",
+        "tonalRamp": [
+          "#090c0b",
+          "#222625",
+          "#3d4441",
+          "#596460",
+          "#7a8581",
+          "#9fa7a4",
+          "#c5cac8",
+          "#ecefee"
+        ]
+      },
+      "ctl-dark": {
+        "role": "neutral",
+        "displayName": "Control Dark",
+        "canonical": "#7b8984",
+        "tonalRamp": [
+          "#090c0b",
+          "#222625",
+          "#3c4441",
+          "#596460",
+          "#798681",
+          "#9ea7a4",
+          "#c5cac8",
+          "#ecefee"
+        ]
+      },
+      "panel-light": {
+        "role": "neutral",
+        "displayName": "Instrument Panel Light",
+        "canonical": "#f6f8f7",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#414242",
+          "#606261",
+          "#818382",
+          "#a4a5a5",
+          "#c8c9c9",
+          "#eeeeee"
+        ]
+      },
+      "panel-2-light": {
+        "role": "neutral",
+        "displayName": "Raised Panel Light",
+        "canonical": "#ecf1ee",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242525",
+          "#404341",
+          "#5e6260",
+          "#7f8381",
+          "#a3a6a4",
+          "#c8c9c8",
+          "#edefee"
+        ]
+      },
+      "mat-light": {
+        "role": "neutral",
+        "displayName": "Cutting Mat Light",
+        "canonical": "#e6ece8",
+        "tonalRamp": [
+          "#0a0b0b",
+          "#242524",
+          "#404341",
+          "#5e625f",
+          "#7f8480",
+          "#a2a6a4",
+          "#c7cac8",
+          "#edefee"
+        ]
+      },
+      "ink-light": {
+        "role": "neutral",
+        "displayName": "Ink Light",
+        "canonical": "#121a16",
+        "tonalRamp": [
+          "#0a0c0b",
+          "#232624",
+          "#3e4341",
+          "#5b645f",
+          "#7c8580",
+          "#a0a7a3",
+          "#c6cac8",
+          "#ecefee"
+        ]
+      },
+      "mute-light": {
+        "role": "neutral",
+        "displayName": "Mute Light",
+        "canonical": "#55635d",
+        "tonalRamp": [
+          "#090c0b",
+          "#222624",
+          "#3c4441",
+          "#58655f",
+          "#798680",
+          "#9ea8a3",
+          "#c5cbc8",
+          "#ebefee"
+        ]
+      },
+      "line-light": {
+        "role": "neutral",
+        "displayName": "Hairline Light",
+        "canonical": "rgb(19 36 29 / 0.13)",
+        "tonalRamp": [
+          "#090c0a",
+          "#212724",
+          "#3a4540",
+          "#55665e",
+          "#76877f",
+          "#9ca8a3",
+          "#c4cbc8",
+          "#eaf0ed"
+        ]
+      },
+      "line-strong-light": {
+        "role": "neutral",
+        "displayName": "Strong Hairline Light",
+        "canonical": "rgb(19 36 29 / 0.26)",
+        "tonalRamp": [
+          "#090c0a",
+          "#212724",
+          "#3a4540",
+          "#55665e",
+          "#76877f",
+          "#9ca8a3",
+          "#c4cbc8",
+          "#eaf0ed"
+        ]
+      },
+      "grid-light": {
+        "role": "neutral",
+        "displayName": "Mat Grid 10 mm Light",
+        "canonical": "rgb(19 36 29 / 0.075)",
+        "tonalRamp": [
+          "#090c0a",
+          "#212724",
+          "#3a4540",
+          "#55665e",
+          "#76877f",
+          "#9ca8a3",
+          "#c4cbc8",
+          "#eaf0ed"
+        ]
+      },
+      "grid-major-light": {
+        "role": "neutral",
+        "displayName": "Mat Grid 50 mm Light",
+        "canonical": "rgb(19 36 29 / 0.17)",
+        "tonalRamp": [
+          "#090c0a",
+          "#212724",
+          "#3a4540",
+          "#55665e",
+          "#76877f",
+          "#9ca8a3",
+          "#c4cbc8",
+          "#eaf0ed"
+        ]
+      },
+      "ruler-bg-light": {
+        "role": "neutral",
+        "displayName": "Ruler Bg Light",
+        "canonical": "#dbe3df",
+        "tonalRamp": [
+          "#0a0b0b",
+          "#232625",
+          "#3f4341",
+          "#5d6360",
+          "#7e8481",
+          "#a2a6a4",
+          "#c7cac8",
+          "#edefee"
+        ]
+      },
+      "ruler-ink-light": {
+        "role": "neutral",
+        "displayName": "Ruler Ink Light",
+        "canonical": "#3d4a44",
+        "tonalRamp": [
+          "#090c0b",
+          "#222624",
+          "#3c4440",
+          "#59645f",
+          "#798680",
+          "#9ea8a3",
+          "#c5cbc8",
+          "#ecefee"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "paper-empty-dark": {
+        "role": "neutral",
+        "displayName": "Paper Empty Dark",
+        "canonical": "rgb(255 255 255 / 0.035)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "paper-empty-light": {
+        "role": "neutral",
+        "displayName": "Paper Empty Light",
+        "canonical": "rgb(255 255 255 / 0.55)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "cut-light-dark": {
+        "role": "neutral",
+        "displayName": "Cut Line Light Dark",
+        "canonical": "rgb(255 255 255 / 0.55)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "cut-light-light": {
+        "role": "neutral",
+        "displayName": "Cut Line Light Light",
+        "canonical": "rgb(255 255 255 / 0.75)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "cut-dark-dark": {
+        "role": "neutral",
+        "displayName": "Cut Line Dark Dark",
+        "canonical": "rgb(0 0 0 / 0.35)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      },
+      "cut-dark-light": {
+        "role": "neutral",
+        "displayName": "Cut Line Dark Light",
+        "canonical": "rgb(0 0 0 / 0.22)",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#252525",
+          "#424242",
+          "#616161",
+          "#828282",
+          "#a5a5a5",
+          "#c9c9c9",
+          "#eeeeee"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "wordmark": {
+        "displayName": "Wordmark",
+        "purpose": "\"Bigprint\" in the top bar only; 22px under 900px."
+      },
+      "figure": {
+        "displayName": "Figure",
+        "purpose": "The final image size pinned at the bottom of the inspector; the unit in mute."
+      },
+      "heading": {
+        "displayName": "Heading",
+        "purpose": "Panel and section titles."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Upload card prompt and drag-over pill."
+      },
+      "ui": {
+        "displayName": "UI",
+        "purpose": "Default text for controls, field names, sheet rows, assembly steps; buttons at 500."
+      },
+      "measure": {
+        "displayName": "Measure",
+        "purpose": "Margin input value, zoom percentage, inline sizes."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Sheet labels on the canvas; step numbers in mono."
+      },
+      "ruler": {
+        "displayName": "Ruler",
+        "purpose": "Ruler numbers drawn on the canvas."
+      }
+    },
+    "shadows": [
+      {
+        "name": "paper-lift-light",
+        "value": "0 1px 2px rgb(19 36 29 / 0.14), 0 6px 16px rgb(19 36 29 / 0.12)",
+        "purpose": "Paper sheets on the mat, light theme. The only shadow in the system."
+      },
+      {
+        "name": "paper-lift-dark",
+        "value": "0 1px 2px rgb(0 0 0 / 0.4), 0 8px 20px rgb(0 0 0 / 0.35)",
+        "purpose": "Paper sheets on the mat, dark theme."
+      },
+      {
+        "name": "cut-line",
+        "value": "1px solid var(--cut-light) + 1px 1px 0 var(--cut-dark)",
+        "purpose": "Two-tone line on inner edges of the assembled poster, readable over any photo."
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease-out",
+        "value": "cubic-bezier(0.23, 1, 0.32, 1)",
+        "purpose": "Arrivals and feedback: fade-rise, value swaps, panel swap, theme reveal, drag-over."
+      },
+      {
+        "name": "ease-in-out",
+        "value": "cubic-bezier(0.77, 0, 0.175, 1)",
+        "purpose": "Canvas moves (sheets, grid, rulers) and the sliding segmented pill."
+      },
+      {
+        "name": "ease-drawer",
+        "value": "cubic-bezier(0.32, 0.72, 0, 1)",
+        "purpose": "Mobile action bar slide-up (300ms)."
+      },
+      {
+        "name": "duration-feedback",
+        "value": "120ms / 150ms / 160ms",
+        "purpose": "Ring and label colour (120ms linear), button colour (150ms), press scale 0.97 (160ms)."
+      },
+      {
+        "name": "duration-morph",
+        "value": "260ms",
+        "purpose": "Layout change morph of sheets and grid; reassembly."
+      },
+      {
+        "name": "duration-explode",
+        "value": "420ms, 30ms stagger",
+        "purpose": "Pulling sheets apart in the print step."
+      },
+      {
+        "name": "duration-arrival",
+        "value": "260ms, 40ms stagger; photo wipe 600ms total",
+        "purpose": "Sheets list rows rise 6px; photo wipes in row by row."
+      },
+      {
+        "name": "duration-swap",
+        "value": "180ms blur cross-fade; 120ms out + 220ms in",
+        "purpose": "Changing values; inspector settings/assembly swap."
+      },
+      {
+        "name": "duration-theme",
+        "value": "450ms",
+        "purpose": "Circular theme reveal from the toggle via View Transitions."
+      },
+      {
+        "name": "never-animates",
+        "value": "none",
+        "purpose": "Pan and zoom while dragging or by keyboard, window resize, focus rings, mat scale between steps."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "120ms colour/opacity only",
+        "purpose": "All transitions collapse to colour or opacity fades; press scale, theme reveal and canvas moves are off."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "canvas-compact",
+        "value": "600px"
+      },
+      {
+        "name": "step-numbers",
+        "value": "640px"
+      },
+      {
+        "name": "desktop",
+        "value": "900px"
+      },
+      {
+        "name": "sheets-panel",
+        "value": "1100px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one filled action per screen: Continue to print, Print N sheets, Choose image.",
+      "html": "<button class=\"ds-btn-primary\">Continue to print</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; height: 36px; padding: 0 16px; border: 0; border-radius: 5px; background: var(--acc-fill, #bc4777); color: #fff; font: 500 13px/1.4 'Geist Variable', ui-sans-serif, system-ui, sans-serif; cursor: pointer; transition: transform 160ms cubic-bezier(0.23,1,0.32,1), background-color 150ms ease; } .ds-btn-primary:hover { background: var(--acc-deep, #a53c68); } .ds-btn-primary:active { transform: scale(0.97); } .ds-btn-primary:focus-visible { outline: 1.5px solid var(--acc, #e06a9d); outline-offset: 2px; } .ds-btn-primary:disabled { opacity: 0.45; }"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Outlined secondary action, e.g. Download PNGs.",
+      "html": "<button class=\"ds-btn-secondary\">Download PNGs</button>",
+      "css": ".ds-btn-secondary { display: inline-flex; align-items: center; justify-content: center; height: 36px; padding: 0 16px; border: 1px solid var(--line-strong, rgb(255 255 255 / 0.18)); border-radius: 5px; background: transparent; color: var(--ink, #e8efeb); font: 500 13px/1.4 'Geist Variable', ui-sans-serif, system-ui, sans-serif; cursor: pointer; transition: transform 160ms cubic-bezier(0.23,1,0.32,1), background-color 150ms ease; } .ds-btn-secondary:hover { background: var(--panel-2, #131716); } .ds-btn-secondary:active { transform: scale(0.97); } .ds-btn-secondary:focus-visible { outline: 1.5px solid var(--acc, #e06a9d); outline-offset: 2px; }"
+    },
+    {
+      "name": "Text Button",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "Underlined quiet action: Replace image, Back to framing.",
+      "html": "<button class=\"ds-btn-text\">Replace image</button>",
+      "css": ".ds-btn-text { height: 28px; padding: 0 4px; border: 0; background: none; color: var(--mute, #8c9c95); font: 500 13px/1.4 'Geist Variable', ui-sans-serif, system-ui, sans-serif; text-decoration: underline; text-decoration-color: var(--line-strong, rgb(255 255 255 / 0.18)); text-underline-offset: 4px; cursor: pointer; transition: color 150ms ease; } .ds-btn-text:hover { color: var(--ink, #e8efeb); } .ds-btn-text:focus-visible { outline: 1.5px solid var(--acc, #e06a9d); outline-offset: 2px; }"
+    },
+    {
+      "name": "Measurement Input",
+      "kind": "input",
+      "refersTo": "input-measure",
+      "description": "Numeric field in mono with the unit inside the right edge.",
+      "html": "<label class=\"ds-measure\"><input class=\"ds-input\" type=\"number\" value=\"5\" aria-label=\"Printer margin in mm\"><span>mm</span></label>",
+      "css": ".ds-measure { position: relative; display: block; width: 260px; } .ds-measure span { position: absolute; right: 12px; top: 50%; transform: translateY(-50%); font: 13px 'Geist Mono Variable', ui-monospace, monospace; color: var(--mute, #8c9c95); pointer-events: none; } .ds-input { box-sizing: border-box; width: 100%; height: 36px; padding: 0 40px 0 12px; border: 1px solid var(--line-strong, rgb(255 255 255 / 0.18)); border-radius: 5px; background: var(--panel-2, #131716); color: var(--ink, #e8efeb); font: 13px/1.4 'Geist Mono Variable', ui-monospace, monospace; outline: none; appearance: textfield; transition: border-color 150ms ease; } .ds-input:focus-visible { border-color: var(--acc, #e06a9d); outline: 1.5px solid var(--acc, #e06a9d); outline-offset: 0; }"
+    },
+    {
+      "name": "Step Control",
+      "kind": "nav",
+      "refersTo": "segmented-step-selected",
+      "description": "Upload · Frame · Print segmented control in the top bar; the active step is the magenta pill.",
+      "html": "<div class=\"ds-seg\" role=\"group\" aria-label=\"Steps\"><button class=\"ds-seg-item\"><span class=\"ds-n\">✓</span>Upload</button><button class=\"ds-seg-item ds-on ds-acc\"><span class=\"ds-n\">2</span>Frame</button><button class=\"ds-seg-item\"><span class=\"ds-n\">3</span>Print</button></div>",
+      "css": ".ds-seg { display: inline-flex; height: 36px; box-sizing: border-box; padding: 3px; border: 1px solid var(--line, rgb(255 255 255 / 0.09)); border-radius: 6px; background: var(--panel-2, #131716); } .ds-seg-item { display: flex; align-items: center; gap: 6px; padding: 0 12px; border: 0; border-radius: 4px; background: none; color: var(--mute, #8c9c95); font: 13px 'Geist Variable', ui-sans-serif, system-ui, sans-serif; cursor: pointer; transition: color 150ms ease, background-color 220ms cubic-bezier(0.77,0,0.175,1); } .ds-seg-item:hover { color: var(--ink, #e8efeb); } .ds-seg-item:focus-visible { outline: 1.5px solid var(--acc, #e06a9d); } .ds-n { font: 11px 'Geist Mono Variable', ui-monospace, monospace; width: 16px; text-align: center; } .ds-on { background: var(--sel-bg, #202826); color: var(--sel-fg, #e8efeb); } .ds-on.ds-acc { background: var(--acc-fill, #bc4777); color: #fff; }"
+    },
+    {
+      "name": "Segmented Choice",
+      "kind": "chip",
+      "refersTo": "segmented-selected",
+      "description": "Non-step choice (Size, Fill/Fit); selection uses the neutral selection colour, never magenta.",
+      "html": "<div class=\"ds-seg2\" role=\"group\" aria-label=\"Size\"><button class=\"ds-seg2-item\">A3 · 2 sheets</button><button class=\"ds-seg2-item ds-seg2-on\">A2 · 4 sheets</button></div>",
+      "css": ".ds-seg2 { display: flex; width: 260px; height: 36px; box-sizing: border-box; padding: 3px; border: 1px solid var(--line, rgb(255 255 255 / 0.09)); border-radius: 6px; background: var(--panel-2, #131716); } .ds-seg2-item { flex: 1; border: 0; border-radius: 4px; background: none; color: var(--mute, #8c9c95); font: 13px 'Geist Variable', ui-sans-serif, system-ui, sans-serif; cursor: pointer; transition: color 150ms ease; } .ds-seg2-item:hover { color: var(--ink, #e8efeb); } .ds-seg2-item:focus-visible { outline: 1.5px solid var(--acc, #e06a9d); } .ds-seg2-on { background: var(--sel-bg, #202826); color: var(--sel-fg, #e8efeb); }"
+    },
+    {
+      "name": "Sheet Row",
+      "kind": "custom",
+      "refersTo": "sheet-row-selected",
+      "description": "Sheets list row: tile thumbnail, name and position, and a position map; selected row in magenta wash.",
+      "html": "<button class=\"ds-row ds-row-on\"><span class=\"ds-thumb\"></span><span class=\"ds-txt\"><b>Sheet 1 · A4</b><span>top left</span></span><span class=\"ds-map\"><i class=\"ds-cell-on\"></i><i></i><i></i><i></i></span></button>",
+      "css": ".ds-row { display: flex; align-items: center; gap: 12px; width: 264px; padding: 8px 12px; border: 0; border-radius: 6px; background: none; color: var(--ink, #e8efeb); text-align: left; font: 13px/1.4 'Geist Variable', ui-sans-serif, system-ui, sans-serif; cursor: pointer; transition: background-color 150ms ease; } .ds-row:hover { background: var(--panel-2, #131716); } .ds-row:focus-visible { outline: 1.5px solid var(--acc, #e06a9d); outline-offset: 2px; } .ds-row-on, .ds-row-on:hover { background: var(--acc-soft, rgb(224 106 157 / 0.14)); } .ds-thumb { width: 32px; height: 45px; border-radius: 2px; outline: 1px solid var(--line-strong, rgb(255 255 255 / 0.18)); background: linear-gradient(#3a4a8a, #c86a88); } .ds-txt { flex: 1; } .ds-txt b { display: block; font-weight: 500; } .ds-row-on .ds-txt b { color: var(--acc, #e06a9d); } .ds-txt span { display: block; color: var(--mute, #8c9c95); } .ds-map { display: grid; grid-template-columns: repeat(2, 12px); gap: 2px; } .ds-map i { height: 14px; border-radius: 2px; background: var(--line-strong, rgb(255 255 255 / 0.18)); } .ds-map i.ds-cell-on { background: var(--acc-fill, #bc4777); }"
+    },
+    {
+      "name": "Final Size Readout",
+      "kind": "custom",
+      "refersTo": "figure",
+      "description": "The one large number: final image size in mono, pinned at the inspector's bottom.",
+      "html": "<div class=\"ds-final\"><div class=\"ds-cap\">Final image</div><div class=\"ds-fig\">400 × 574 <span>mm</span></div><div class=\"ds-cap\">4 sheets of A4 · 5 mm margin</div></div>",
+      "css": ".ds-final { width: 260px; padding: 20px; border-top: 1px solid var(--line, rgb(255 255 255 / 0.09)); background: var(--panel, #0a0c0c); color: var(--ink, #e8efeb); } .ds-cap { font: 13px/1.4 'Geist Variable', ui-sans-serif, system-ui, sans-serif; color: var(--mute, #8c9c95); } .ds-fig { margin: 4px 0 6px; font: 26px/1.25 'Geist Mono Variable', ui-monospace, monospace; letter-spacing: -0.02em; white-space: nowrap; } .ds-fig span { color: var(--mute, #8c9c95); }"
+    },
+    {
+      "name": "Cutting Mat",
+      "kind": "card",
+      "refersTo": "mat",
+      "description": "The canvas: mat with 10 mm and 50 mm grid lines and a paper sheet with the paper lift and a magenta selection ring.",
+      "html": "<div class=\"ds-mat\"><span class=\"ds-lbl\">Sheet 1 · A4</span><div class=\"ds-paper\"></div></div>",
+      "css": ".ds-mat { position: relative; width: 300px; height: 220px; background-color: var(--mat, #0d1e1b); background-image: linear-gradient(var(--grid-major, rgb(110 210 180 / 0.17)) 1px, transparent 1px), linear-gradient(90deg, var(--grid-major, rgb(110 210 180 / 0.17)) 1px, transparent 1px), linear-gradient(var(--grid, rgb(110 210 180 / 0.075)) 1px, transparent 1px), linear-gradient(90deg, var(--grid, rgb(110 210 180 / 0.075)) 1px, transparent 1px); background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px; } .ds-paper { position: absolute; left: 100px; top: 40px; width: 105px; height: 148px; background: #fff; box-shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 8px 20px rgb(0 0 0 / 0.35); outline: 1.5px solid var(--acc, #e06a9d); } .ds-lbl { position: absolute; left: 100px; top: 20px; font: 11px 'Geist Variable', ui-sans-serif, system-ui, sans-serif; color: var(--acc, #e06a9d); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Measured Cutting Mat",
+    "overview": "Bigprint is a canvas editor in the Figma/Framer family whose canvas is the self-healing mat the person will trim the sheets on. The mat carries a fine 10 mm grid with brighter 50 mm lines, millimetre rulers on the top and left edges mark exactly 0 to the poster's real width and height, and the sheets sit on it as white paper artboards at true scale. Everything around the mat is a quiet instrument: near-black (dark) or near-white (light) panels divided by 1px hairlines, Geist for words, Geist Mono for every number that is a measurement.\n\nThe system is dense and exact rather than airy. Panels are fixed-width columns with 20px gutters; type stays between 11px and 18px except for the wordmark and the final-size figure, which is the one large number on screen because the honest final size is the product's promise. Colour is almost entirely green-grey neutrals; one muted print-proof magenta marks what is active, selected or primary.\n\nBoth themes are first-class and carry the same structure. Dark is a green-black mat under near-black panels; light is a pale grey-green mat under near-white panels. The theme follows the system preference until the person toggles it, and the toggle reveals the new theme as a circle growing from the button.\n\nThe visual world rejects the empty gallery wall (an earlier, rejected direction) and the stock dark editor with a blue accent.",
+    "keyCharacteristics": [
+      "A measured mat canvas: 10 mm minor grid, 50 mm major grid, mm rulers that end exactly at the poster's extent.",
+      "Paper is the only object with a shadow.",
+      "One muted magenta accent; every other surface is a green-tinted neutral.",
+      "Geist Mono for every millimetre, percentage and step number; tabular numerals everywhere.",
+      "Small radii (2px to 8px) and 1px hairlines; no decorative chrome."
+    ],
+    "rules": [
+      {
+        "name": "The One Proof Colour Rule",
+        "body": "Magenta marks only what is active, selected or primary: the current step, the selected sheet, the primary action, focus and the caret. Non-step selections (size, fit, orientation) use the neutral selection colour, never magenta.",
+        "section": "colors"
+      },
+      {
+        "name": "The Green Neutral Rule",
+        "body": "Every neutral carries the mat's green tint (HSL hue 140 to 180). No pure greys in UI chrome, and no blue anywhere.",
+        "section": "colors"
+      },
+      {
+        "name": "The Mono Measurement Rule",
+        "body": "Every millimetre value, percentage and step number is Geist Mono. Words stay in Geist.",
+        "section": "typography"
+      },
+      {
+        "name": "The One Big Number Rule",
+        "body": "The final-size figure is the largest text in the app after the wordmark. No other value is set larger.",
+        "section": "typography"
+      },
+      {
+        "name": "The Only Paper Lifts Rule",
+        "body": "Shadows belong to paper on the mat. Panels, cards, buttons and the upload card stay flat.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** set every measurement (mm, %, step numbers) in Geist Mono and keep tabular numerals on.",
+      "**Do** keep magenta for the current step, selected sheet, primary action, focus and caret; use the neutral selection colour for other choices.",
+      "**Do** draw new canvas elements in real millimetres at the shared pixels-per-mm scale, on the 10 mm / 50 mm grid.",
+      "**Do** keep the final size visible as one large mono figure with its unit in mute.",
+      "**Do** use the paper lift only for paper on the mat, and hairlines for everything else.",
+      "**Do** use `--ease-in-out` for canvas moves and `--ease-out` for arrivals, and give every animation a reduced-motion opacity fallback."
+    ],
+    "donts": [
+      "**Don't** introduce a blue accent or a second accent colour.",
+      "**Don't** make the magenta brighter or more saturated (no neon); dark text-magenta is `#e06a9d` and fills stay at `#bc4777` or darker under white text.",
+      "**Don't** put shadows on panels, cards or controls.",
+      "**Don't** use radii above 8px on rectangles or round the paper sheets.",
+      "**Don't** let a label or control cover the image on the assembled poster.",
+      "**Don't** animate pan, zoom or resize."
+    ]
+  }
+}
